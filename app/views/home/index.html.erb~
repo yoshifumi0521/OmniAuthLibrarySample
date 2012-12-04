@@ -3,6 +3,6 @@
 
 <p><%= link_to "Facebookでログイン","/auth/facebook" %></p>
 
-<p><%= link_to "Linkinでログイン","/auth/linkedin" %></p>
+<p><%= link_to "Linkinでログイン","/auth/linkin" %></p>
 
 

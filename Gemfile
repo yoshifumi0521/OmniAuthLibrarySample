@@ -25,7 +25,7 @@ gem 'jquery-rails'
 #OmniAuthライブラリのgemを追加する。
 gem 'omniauth'
 gem 'omniauth-facebook'
-
+gem 'omniauth-linkedin'
 
 
 
