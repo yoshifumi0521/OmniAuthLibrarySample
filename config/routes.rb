@@ -4,6 +4,11 @@ OmniAuthLibrarySample::Application.routes.draw do
   
   root :to => "home#index"
 
+  #OmniAuthライブラリのルーティング
+  match "/auth/:provider/callback" => "sessions#callback"
+
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
